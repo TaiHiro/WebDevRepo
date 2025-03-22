@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InStep</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
-
 <body>
+  <script type="module" src="/main.js"></script>
+  
   <!-- Navigation -->
   <nav class="navbar">
     <div class="navbar-max-width">
       <div class="logo">
-        <img src="/Midterm/Images/inStepLogoOnly.png" alt="App on iPhone" style="width: 75px;">
+        <img src="/Midterm/Images/inStepLogoOnly.png" alt="Logo" style="width: 75px;">
         <a href="#">inStep</a>
       </div>
       <ul class="menu">
@@ -28,11 +30,20 @@
 
   <div id="sidebar" class="sidebar">
     <div class="sidebar-max-width">
-      <div class="logo"><a href="#logo">inStep</a></div>
-       <img src="/Midterm/Images/inStepLogoOnly.png" alt="App on iPhone" style="width: 75px;">
-        <div class="menu"><a href="#menu" class="menu-btn">Menu</a></div>
-</div>
-</div>
+       <div class="logo"><a href="#logo">inStep</a></div>
+       <img src="/Midterm/Images/inStepLogoOnly.png" alt="Logo" style="width: 75px;">
+       <div class="dropdown">
+          <div class="menu"><a href="#menu" class="menu-btn">Menu</a></div>
+          <div class="dropdown-content">
+             <a href="#about" class="dropdown-content">About</a>
+             <li><a href="#background" class="dropdown-content">Background</a></li>
+             <li><a href="#prototypes" class="dropdown-content">Prototypes</a></li>
+             <li><a href="#app" class="dropdown-content">App</a></li>
+             <li><a href="#contact" class="dropdown-content">Contact</a></li>
+          </div>
+       </div>
+    </div>
+ </div>
 
   <!-- Landing Page -->
   <section class="landing" id="about">
