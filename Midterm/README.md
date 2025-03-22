@@ -1,4 +1,3 @@
-##Summary
 As of now, this website has the following features:
 * Media queries for responsive design
 * A working menu dropdown
