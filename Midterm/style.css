@@ -324,7 +324,7 @@ section {
     #contact-form {
         display: flex;
         flex-direction: column;
-        gap: 0px;
+        gap: 20px;
     }
     
     .fields {
